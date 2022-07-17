@@ -1,0 +1,32 @@
+body{
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info {
+    display: block;
+    font-family: Verdana;
+    font-size: 1em;
+    padding: 10px 550px;
+}
+
+.img1 {
+    display: block;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.change1 {
+    padding-left: 200px;
+    display: block;
+    position: relative;
+    z-index: -1
+}
+.change2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
